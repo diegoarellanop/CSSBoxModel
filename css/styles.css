@@ -1,0 +1,20 @@
+*{
+	font-family: sans-serif;
+}
+img{
+	display: block;
+
+	background-color: gray;
+	
+	width: 200px;
+	/*padding: 10px; Todos iguales
+	padding-right: 5px; Definición de cada lado
+	padding-top: 5px;
+	padding: 10px 12px; /*Verticales y horizontales*/
+	
+	padding: 10px 12px 10px 12px; /*Reloj desde las 12, esta es la mejor opción*/
+
+	border: 1px black solid; /*Tamaño, color y tipo de línea (solid, dotted y dashed)*/
+
+	margin: 10px auto; /*Verticales y horizontales (auto para centrar)*/
+}
