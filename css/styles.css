@@ -1,20 +1,329 @@
-*{
-	font-family: sans-serif;
-}
+/*
 img{
 	display: block;
-
 	background-color: gray;
-	
 	width: 200px;
 	/*padding: 10px; Todos iguales
 	padding-right: 5px; Definición de cada lado
 	padding-top: 5px;
 	padding: 10px 12px; /*Verticales y horizontales*/
-	
-	padding: 10px 12px 10px 12px; /*Reloj desde las 12, esta es la mejor opción*/
-
-	border: 1px black solid; /*Tamaño, color y tipo de línea (solid, dotted y dashed)*/
-
-	margin: 10px auto; /*Verticales y horizontales (auto para centrar)*/
+	/*padding: 10px 12px 10px 12px; /*Reloj desde las 12, esta es la mejor opción*/
+	/*border: 1px black solid; /*Tamaño, color y tipo de línea (solid, dotted y dashed)*/
+	/*margin: 10px auto; /*Verticales y horizontales (auto para centrar)*/
+	/*float: right;
 }
+*/
+
+*{
+	font-family: sans-serif;
+  list-style: none;
+}
+
+html{
+	font-size: 100%;
+  line-height: 1.3;
+}
+
+body{
+	font-family: Helvetica,Arial,sans-serif;
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  background-color: #F6F6F6
+}
+
+header{
+	background-image: url(https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/3835fef688def1e83ec53df17421b3c7092b0366_2880x1620.jpg?blur=0%2C10&cb=20160613&quality=63&u=&w=150);
+	padding-bottom: 522px;
+	background-size: cover;
+	color: white;
+}
+
+nav{
+  height: 54px;
+  margin-top: 0px;
+	background: rgba(0,0,0,.3);
+	display: block;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+#cajalogo{
+	padding: 0px, 0px, 96px, 54px;
+}
+
+#logo{
+	float: left;
+	height: 24.5px;
+	margin: 6px;
+	padding: 8px;
+}
+
+#eslogan{
+ 	line-height: 54px;
+  padding: 0 16px;
+  font-size: 24px;
+	font-weight: 200;
+	float: left;
+	display: block;
+	padding-left: 0;
+  padding-right: 0;
+}
+
+#divisor {
+	border-left: 1px #999 solid;
+}
+
+#box{
+	float: left;
+  width: 600px;
+  cursor: pointer;
+  margin-left: 50px;
+}
+
+.botonmenu{
+	float: left;
+	color: white #fff;
+	cursor: pointer;
+  display: block;
+  font-size: 14px;
+  font-weight: 700;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.botonmenul{
+  float: left;
+  color: white #fff;
+  cursor: pointer;
+  display: block;
+  font-size: 14px;
+  font-weight: 700;
+  border-left: 1px solid rgba(150,150,150,.2);    
+  border-right: 1px solid rgba(150,150,150,.2);
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#barramenu{
+ 	float: right;
+	right: 0;
+	position: absolute;
+	display: block;
+	outline-width: 800px;
+	list-style: none;
+  margin-top: 0px;
+}
+
+#lupa{
+	height: 25px;
+}
+
+#recuadro {
+  float: left;
+  width: 600px;
+  cursor: pointer;
+  padding-top: 40px;
+}
+
+#text {
+  float: left;
+  background-image: url(https://pi.tedcdn.com/r/pe.tedcdn.com/images/ted/3835fef688def1e83ec53df17421b3c7092b0366_2880x1620.jpg?blur=0%2C10&cb=20160613&quality=63&u=&w=150);
+  background-size: 100%;
+  cursor: pointer;
+  padding-left: 50px;
+  width: 600px;
+  box-sizing: border-box;
+  padding-top: 1rem!important;
+}
+
+.textp{
+	font-weight: 700;
+	font-size: 2.48832rem;
+}
+
+.textp2{
+	margin-top: 10px;
+	font-weight: 700;
+	font-size: 1rem;
+	display: inline-block;
+}
+
+.textp3{
+	font-weight: 200;
+  font-size: .83333rem;
+  display: inline-block;
+}
+
+#box2 {
+	float: left;
+  width: 250px;
+  cursor: pointer;
+  margin-left: 15px;
+}
+
+#box3{
+  float: left;
+  cursor: pointer;
+  margin-left: 15px;
+  display: inline-block;
+}
+
+
+#recuadro2 {
+  float: left;
+  width: 250px;
+  cursor: pointer;
+  padding-top: 40px;
+  margin-left: 15px;
+}
+
+#text2 {
+  float: left;
+  background-color: white;
+  background-size: 100%;
+  cursor: pointer;
+  width: 250px;
+  margin-left: 15px;
+  padding-bottom: 129px
+  box-sizing: border-box;
+  padding-top: 1rem!important;
+  line-height: 1!important;
+}
+
+.textpi{
+	font-weight: 700;
+	font-size: 1.2rem;
+	margin-bottom: .69444rem;
+	color: #333;;
+  box-sizing: border-box;
+  margin-left: 15px;
+}
+
+.textp2i {
+  font-weight: 400;
+	font-size: 1rem;
+	color: #333;;
+  box-sizing: border-box;
+  margin-left: 15px;
+  line-height: 1.3;
+}
+
+#subbox{
+  cursor: pointer;
+  margin-left: 50px;
+  box-shadow: 0px 0px 1px 0px rgba(181,174,181,1);
+  display: inline-block;
+}
+
+#subbox2{
+  cursor: pointer;
+  margin-left: 4px;
+  box-shadow: 0px 0px 1px 0px rgba(181,174,181,1);
+  display: inline-block;
+}
+
+.textpii{
+	font-weight: 700;
+	font-size: 1rem;
+	margin-bottom: .69444rem;
+	color: #333;
+  box-sizing: border-box;
+  margin-left: 15px;
+}
+
+#text22 {
+  float: left;
+  background-color: white;
+  background-size: 100%;
+  cursor: pointer;
+  width: 190px;
+  height: 80px;
+  box-sizing: border-box;
+  padding-top: 1rem!important;
+  line-height: 1.3!important;
+
+}
+
+#recuadro22 {
+  float: left;
+  width: 250px;
+  cursor: pointer;
+  padding-top: 40px;
+}
+
+#videomain{
+  cursor: pointer;
+  margin-left: 50px;
+  box-shadow: 0px 2px 0px 0px rgba(168,168,168,1);
+  padding-left: .3349rem!important;
+  padding-right: .3349rem!important;
+  width: 200.062px;
+}
+
+#primerafila {
+  box-sizing: border-box;
+  float: left;
+  position: relative;
+  padding-top: 10px;
+}
+
+#videoprimerafila{
+  text-decoration: none;
+}
+
+#recuadro3 {
+  width: 190px;
+  cursor: pointer;
+}
+
+#cajavideos{
+  padding-top: 60px;
+  position: relative;
+}
+
+#cajavideos2{
+  padding-top: 28px;
+}
+
+#flecha{
+  height: 35px;
+  margin-left: 0px;
+}
+
+#letrero{
+  float: left;
+  height: 30px;
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+}
+
+#letrero2{
+  float: left;
+  height: 30px;
+  position: absolute;
+  top: 840px;
+  left: 40px;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+}
+
+#limite{
+  height: 107px;
+}
+
+#raya{
+  float: left;
+  display: inline-block;
+  background: rgba(150,150,150,.2);
+  height: 54px;
+  width: 1px;
+  text-decoration: none;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
